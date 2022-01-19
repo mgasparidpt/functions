@@ -31,26 +31,6 @@
       <input placeholder="Number 2" id="num2">
       <button>Multiply Number 1 and Number 2</button>
       <p></p>
-      <script>
-          function onClick() {
-              if(inputsAreEmpty()) {
-                  label.textContent = "Error: Inputs are empty";
-                  return;
-              }
-          }
-          function inputsAreEmpty() {
-              if (numberOne() === '') || numberTwo() === '') {
-                  return true;
-              } else {
-                  return false;
-              }
-          }
-          function multiply() {
-            let number1 = parseInt(numberOne());
-            let number2 = parseInt(numberTwo());
-            let product = numberOne * numberTwo;
-            label.textContent = numberOne + ' * ' + numberTwo + ' = ' + product;
-          }
-      </script>
+      <script src="multiply.js"></script>
 </body>
 </html>

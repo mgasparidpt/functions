@@ -15,7 +15,7 @@ function inputsAreEmpty() {
 function updateLabel() {
     var addend1 = getNumber1();
     var addend2 = getNumber2();
-    var product = pasreInt(addend1) * parseInt(addend2);
+    var product = parseInt(addend1) * parseInt(addend2);
     label.textContent = addend1 + ' * ' + addend2 + ' = ' + product;
 }
 function getNumber1() {
